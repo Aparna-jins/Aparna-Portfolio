@@ -1,5 +1,5 @@
 import React from "react";
-import { Code,User,Briefcase } from "lucide-react";
+import { Code, User, Briefcase } from "lucide-react";
 
 const AboutSection = () => {
   return (
@@ -25,15 +25,21 @@ const AboutSection = () => {
               landscape.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact"  className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
-                {" "}
-                Get In Touch
-              </a>
+              
               <a
-                href="Aparna_Jins_E_Resume.pdf" download="Aparna_Jins_E_Resume.pdf"
+                href="Aparna_Jins_E_Resume.pdf"
+                download="Aparna_Jins_E_Resume.pdf"
                 className="cosmic-button"
               >
                 DownLoad CV
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1A0LZjeddFupe3QMNjEzsRU2YvnwzpL_c/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
+                View CV on Drive
               </a>
             </div>
           </div>
