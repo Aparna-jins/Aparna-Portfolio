@@ -8,7 +8,7 @@ import {
 import { cn } from "../lib/utils";
 
 import { useState,useRef } from "react";
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 const ContactSection = () => {
     const formRef = useRef();
