@@ -12,7 +12,7 @@ export const ThemeToggle = () => {
       localStorage.setItem("theme", "light");
       SetIsDarkMode(false);
     }
-  },[]);
+  }, []);
   const toggleTheme = () => {
     if (isDarkMode) {
       document.documentElement.classList.remove("dark");
@@ -28,8 +28,9 @@ export const ThemeToggle = () => {
     <button
       onClick={toggleTheme}
       className={cn(
-        "fixed max-sm:hidden top-4 right-4 z-50 p-2 rounded-full transition-colors duration-300",
-        "focus:outline-hidden"
+        "fixed  top-5 right-15 z-50 p-2 rounded-full transition-colors duration-300",
+        "focus:outline-hidden",
+        "sm:top-4 sm:right-4"
       )}
     >
       {" "}

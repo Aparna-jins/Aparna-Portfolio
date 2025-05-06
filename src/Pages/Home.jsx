@@ -11,7 +11,7 @@ import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    <div className="min-h-screen bg-background text-foreground">
       <ThemeToggle /> <StarBackground />
       <Navbar />
       <main>
